@@ -1,0 +1,46 @@
+{
+  "name": "@utori-dev/template-vanilla-web-app",
+  "version": "1.0.0",
+  "description": "Starter web app with HTML, CSS, JavaScript, and development dependencies.",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "format": "prettier **/** --write",
+    "start": "webpack serve --mode development",
+    "start:production": "webpack serve --mode production",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/utori-dev/template-vanilla-web-app.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "javascript",
+    "app",
+    "webpack",
+    "template"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/utori-dev/template-vanilla-web-app/issues"
+  },
+  "homepage": "https://github.com/utori-dev/template-vanilla-web-app#readme",
+  "devDependencies": {
+    "@babel/core": "^7.18.2",
+    "@babel/preset-env": "^7.18.2",
+    "babel-jest": "^28.1.0",
+    "babel-loader": "^8.2.5",
+    "copy-webpack-plugin": "^11.0.0",
+    "css-loader": "^6.7.1",
+    "jest": "^28.1.0",
+    "jest-environment-jsdom": "^28.1.0",
+    "jest-transform-stub": "^2.0.0",
+    "mini-css-extract-plugin": "^2.6.0",
+    "prettier": "^2.6.2",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.0"
+  }
+}

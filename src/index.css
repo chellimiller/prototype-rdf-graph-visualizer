@@ -1,0 +1,15 @@
+/* Specifies the styles for the root app component. */
+#app {
+  /* Ensure the root app element takes up the full screen size. */
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+/* Specifies the styles for all `<h1>` elements */
+h1 {
+  color: #4898da;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
