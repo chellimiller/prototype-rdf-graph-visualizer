@@ -1,17 +1,6 @@
-# Simple Web App Template
+# RDF Graph Visualizer
 
-Starter web app with HTML, CSS, JavaScript, and development dependencies.
-
-This template is ideal for learning projects and simple prototypes:
-
-- Intended to be easily understood by beginners to web development.
-- Commented configuration files to aid in learning.
-- Minimal dependencies to reduce complexity and abstractions.
-
-This template is not an ideal starting point for most production web apps.
-To encourage learning and reduce abstractions, common dependencies like TypeScript were left out.
-Many common dependencies are useful for preventing bugs, increasing speed of development,
-reducing maintenance requirements, and improving readability.
+This is a simple prototype of an app to visualize RDF data.
 
 ## Scripts
 
@@ -72,7 +61,7 @@ Before getting started, you will need [Git] and [Node.js].
 You are now ready to start coding!
 
 [babel]: https://babeljs.io/
-[generate]: https://github.com/utori-dev/template-vanilla-web-app/generate
+[generate]: https://github.com/chellimiller/prototype-rdf-graph-visualizer/generate
 [git]: https://git-scm.com/
 [github_docs_git]: https://docs.github.com/en/get-started/quickstart/set-up-git
 [node.js]: https://nodejs.org/

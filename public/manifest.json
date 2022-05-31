@@ -1,13 +1,13 @@
 {
   "$schema": "https://json.schemastore.org/web-manifest-combined.json",
-  "name": "Vanilla Web App Template",
-  "short_name": "Web App",
+  "name": "RDF Graph Visualizer",
+  "short_name": "RDF GraphViz",
   "start_url": ".",
   "scope": "/",
   "display": "minimal-ui",
   "background_color": "#ffffff",
   "theme_color": "#4898da",
-  "description": "Starter web app with HTML, CSS, JavaScript, and development dependencies.",
+  "description": "Simple graph visualizer for RDF data.",
   "icons": [
     {
       "src": "assets/logo/logo-512.png",
