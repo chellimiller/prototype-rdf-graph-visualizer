@@ -1,3 +1,10 @@
+jest.mock('./graph/createForceGraph', () => ({
+  __esModule: true,
+  default: jest.fn().mockImplementation(() => ({
+    element: document.createElement('div'),
+  })),
+}));
+
 describe('index.js', () => {
   it('should add h1 element with "Hello World" text', () => {
     // Arrange

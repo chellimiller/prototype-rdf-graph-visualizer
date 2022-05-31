@@ -19,6 +19,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 const config = {
   entry: './src/index.js',
+  target: 'web',
   output: {
     // Put output in the `dist/` directory.
     path: path.resolve(__dirname, 'dist'),
@@ -84,6 +85,10 @@ const config = {
       filename: 'styles.css',
     }),
   ],
+  // externals: {
+  //   n3: 'N3',
+  //   'force-graph': 'ForceGraph',
+  // },
 };
 
 module.exports = config;

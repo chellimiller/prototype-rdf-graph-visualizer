@@ -32,8 +32,9 @@ const config = {
     },
   },
   transform: {
-    // Specify that all JS files should be transformed with Babel.
-    '^.+\\.js$': 'babel-jest',
+    // Specify that all JS files should be transformed with SWC.
+    // SWC is easy and Babel was giving me trouble.
+    '^.+\\.(t|j)sx?$': ['@swc/jest'],
     // Specify that CSS files should be stubbed.
     '.+\\.css$': 'jest-transform-stub',
   },

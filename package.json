@@ -28,9 +28,15 @@
     "url": "https://github.com/chellimiller/prototype-rdf-graph-visualizer/issues"
   },
   "homepage": "https://github.com/chellimiller/prototype-rdf-graph-visualizer#readme",
+  "dependencies": {
+    "force-graph": "1.42.9",
+    "n3": "1.16.2"
+  },
   "devDependencies": {
     "@babel/core": "^7.18.2",
     "@babel/preset-env": "^7.18.2",
+    "@swc/core": "^1.2.194",
+    "@swc/jest": "^0.2.21",
     "babel-jest": "^28.1.0",
     "babel-loader": "^8.2.5",
     "copy-webpack-plugin": "^11.0.0",
