@@ -29,6 +29,7 @@
   },
   "homepage": "https://github.com/chellimiller/prototype-rdf-graph-visualizer#readme",
   "dependencies": {
+    "buffer": "^6.0.3",
     "force-graph": "1.42.9",
     "n3": "1.16.2"
   },

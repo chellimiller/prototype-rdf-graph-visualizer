@@ -1,7 +1,7 @@
 // Ensure that the styles from index.css are included.
 import './index.css';
-import createForceGraph from './graph/createForceGraph';
 import registerServiceWorker from './registerServiceWorker';
+import createGraph from './graph/createGraph';
 
 /**
  * Retrieve the root element for the app.
@@ -19,7 +19,7 @@ header.innerText = 'Hello World!';
 /**
  * Graph element
  */
-const graph = createForceGraph();
+const graph = createGraph();
 
 // Add the header to the app.
 app.appendChild(header);
