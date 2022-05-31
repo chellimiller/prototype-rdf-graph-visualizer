@@ -10,6 +10,12 @@ To build the app, run `npm run build`.
 
 The generated output will be in the `dist/` directory.
 
+### Deploy: `npm run deploy`
+
+To deploy the app, run `npm run build`.
+
+This will build the app and publish the `dist/` directory as a GitHub pages site.
+
 ### Format: `npm run format`
 
 To format the source code, run `npm run format`.
